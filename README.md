@@ -1,4 +1,2 @@
-# Bin2Dec
-Um Conversor de números binários para números decimais
-
-Link direto: https://lucassimaog6.github.io/Bin2Dec/
+# App Ideas Level-1 Beginner
+Lista de pequenos projetos retirados do "https://github.com/florinpop17/app-ideas"

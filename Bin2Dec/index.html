@@ -4,48 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
     <title>Bin2Dec</title>
-    <style>
-        .fundo{
-            background-image: linear-gradient(to right, #E9D5C9, #D5ACA1);
-            height: 100vh;
-        }
-        .caixa{
-            width: min-content;
-            border-radius: 15px;
-            border-style: solid;
-            padding: 20px;
-            background-color: #87957F;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-        }
-        .label{
-            font-size: 2em;
-        }
-        .input{
-            border-style: solid;
-            border-radius: 7px;
-            margin-left: 50px;
-            margin-right: 50px;
-        }
-        .botao{
-            border-style: solid;
-            margin-left: 50%;
-            margin-right: auto;
-            width: max-content;
-            height: 40px;
-            border-radius: 7px;
-            background-color: #E1E0DE;
-        }
-        .botao:hover{
-            background-color: #969592;
-        }
-    </style>
 </head>
-<body>
-    <div class="fundo">
+<body class="fundo">
         <div class="caixa">
             <div>
                 <label class="label" for="bin">Digite o valor em binário</label>
@@ -60,7 +22,6 @@
                 <button class="botao" type="submit" onclick="conv()">Converter</button>
             </div>
         </div>
-    </div>
 <script>
     function conv(bin){
         bin = document.getElementById("bin").value;

@@ -1,0 +1,36 @@
+.fundo{
+  background-color: #282a36;
+}
+.caixa{
+  display: block;
+  width: max-content;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #282a36;
+  margin: auto;
+  margin-top: 20%;
+}
+.label{
+  font-size: 2em;
+  color: #fff;
+}
+.input{
+  display: block;
+  background-color: #f8f8f2;
+  border: solid;
+  border-width: 2px;
+  border-color: #44475a;
+  border-radius: 4px;
+  margin: auto;
+}
+.botao{
+  display: block;
+  border-style: solid;
+  border-color: #44475a;
+  margin: auto;
+  margin-top: 20px;
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #f8f8f2;
+}
