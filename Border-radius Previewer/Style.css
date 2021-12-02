@@ -1,0 +1,25 @@
+body{
+  background-color: #282a36;
+  width: 60%;
+  margin: auto;
+}
+p, h1{
+  font-size: 2em;
+  color: #fff;
+}
+#border-box{
+  display: table;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #44475a;
+}
+
+#text-box{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 20px; 
+  
+}

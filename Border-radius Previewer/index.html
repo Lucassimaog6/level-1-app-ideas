@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css">
+  <title>Border Radius Previwer</title>
+</head>
+<body>
+  <h1>Border Radius Previwer</h1>
+  <p>Altere a propriedade border radius e veja o resultado:</p>
+  <input id="input-border" type="text">
+  <button onclick="change()">ok</button>
+  <div id="border-box">
+    <p id="text-box">'-'</p>
+  </div>
+
+  <script>
+    function change(){
+      document.getElementById('text-box').textContent = document.getElementById("input-border").value;
+      document.getElementById("border-box").style.borderRadius = document.getElementById("input-border").value+"px";
+    }
+  </script>
+
+</body>
+</html>
