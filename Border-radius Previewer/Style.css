@@ -6,6 +6,11 @@ body{
 p, h1{
   font-size: 2em;
   color: #fff;
+  
+}
+h1{
+  text-align: center;
+  font-size: 3em;
 }
 #border-box{
   display: table;
